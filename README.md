@@ -8,7 +8,7 @@ Subtitle Sync aligns external SRT subtitles to the first audio track and saves a
    https://raw.githubusercontent.com/Hassaankh10/jellyfin-subtitle-sync-catalog/main/manifest.json
    ```
 2. Open **Catalog**, install **Subtitle Sync**, and restart Jellyfin. If Subtitle Sync is already installed, run **Update Plugins** before restarting.
-3. Open **Dashboard → Plugins → Subtitle Sync**. Check the engine and select your libraries under **Settings**, then click **Run now**. **Overview** shows live progress, and **Libraries** shows the results by library.
+3. Open **Dashboard → Plugins → Subtitle Sync**. Check the engine and select your libraries under **Settings**, then click **Run now**. **Overview** shows live progress, and **Libraries** opens a list of movies and episodes with thumbnails and sync status for each title.
 4. Select the **Synced** track after the library picks it up. Add a **Daily** trigger in **Scheduled Tasks** to run automatically.
 
 Version 0.2.0 bundles ffsubsync for standard glibc-based Linux on x86-64 and ARM64. Keep the Jellyfin config volume when recreating the Docker container. If you previously set `JELLYFIN_FFSUBSYNC` to a location that disappears when the container is replaced, remove the override from the container configuration to use the bundle.

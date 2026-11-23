@@ -8,6 +8,14 @@
     "category": "Subtitles",
     "versions": [
       {
+        "version": "0.3.0.0",
+        "changelog": "Browse every library in the dashboard. Each movie and episode shows Jellyfin artwork and how many external SRT tracks have a synced copy.",
+        "targetAbi": "12.4.0.0",
+        "sourceUrl": "https://github.com/Hassaankh10/jellyfin-subtitle-sync-catalog/releases/download/v0.3.0/SubtitleSync-0.3.0-Jellyfin-12.4.zip",
+        "checksum": "5fdcce5bf1c8ff9e3d338bbef9a41655",
+        "timestamp": "2026-11-23T08:47:59Z"
+      },
+      {
         "version": "0.2.0.0",
         "changelog": "Adds the admin dashboard, track-level progress, incremental batch sync and bundled ffsubsync for Linux x86-64 and ARM64.",
         "targetAbi": "12.4.0.0",
