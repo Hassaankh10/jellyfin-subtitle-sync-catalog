@@ -1,0 +1,20 @@
+[
+  {
+    "guid": "bd905d70-971f-4509-b76d-afac8b5c0a9e",
+    "name": "Subtitle Sync",
+    "overview": "Align external SRT subtitles with the first audio track.",
+    "description": "Create synced copies of external SRT subtitles for movies and episodes through a Jellyfin scheduled task. Requires ffsubsync on the server.",
+    "owner": "Hassaankh10",
+    "category": "Subtitles",
+    "versions": [
+      {
+        "version": "0.1.0.0",
+        "changelog": "Initial release with audio-based timing correction for external SRT subtitles.",
+        "targetAbi": "12.4.0.0",
+        "sourceUrl": "https://github.com/Hassaankh10/jellyfin-subtitle-sync-catalog/releases/download/v0.1.0/SubtitleSync-0.1.0-Jellyfin-12.4.zip",
+        "checksum": "b8d8bd1a3beba1810ab4baf547940c6a",
+        "timestamp": "2026-11-23T00:00:00Z"
+      }
+    ]
+  }
+]
