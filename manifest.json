@@ -3,10 +3,18 @@
     "guid": "bd905d70-971f-4509-b76d-afac8b5c0a9e",
     "name": "Subtitle Sync",
     "overview": "Align external SRT subtitles with the first audio track.",
-    "description": "Align external SRT subtitles to a video\u2019s first audio track and save synced copies. Includes a live dashboard and bundled ffsubsync for Linux x86-64 and ARM64.",
+    "description": "Align external SRT subtitles to a video’s first audio track and save synced copies. Includes a live dashboard and bundled ffsubsync for Linux x86-64 and ARM64.",
     "owner": "Hassaankh10",
     "category": "Subtitles",
     "versions": [
+      {
+        "version": "0.4.0.0",
+        "changelog": "Remembers completed tracks across restarts and leaves already aligned originals without duplicate files. Adds a ±15-minute offset search, per-title re-sync, optional scene-change alignment, and plugin artwork.",
+        "targetAbi": "12.4.0.0",
+        "sourceUrl": "https://github.com/Hassaankh10/jellyfin-subtitle-sync-catalog/releases/download/v0.4.0/SubtitleSync-0.4.0-Jellyfin-12.4.zip",
+        "checksum": "8ac0c21b433490803524d94ae2aa3825",
+        "timestamp": "2026-11-27T20:54:32Z"
+      },
       {
         "version": "0.3.0.0",
         "changelog": "Browse every library in the dashboard. Each movie and episode shows Jellyfin artwork and how many external SRT tracks have a synced copy.",
@@ -31,6 +39,7 @@
         "checksum": "b8d8bd1a3beba1810ab4baf547940c6a",
         "timestamp": "2026-11-23T00:00:00Z"
       }
-    ]
+    ],
+    "imageUrl": "https://raw.githubusercontent.com/Hassaankh10/jellyfin-subtitle-sync-catalog/main/subtitle-sync.png"
   }
 ]
