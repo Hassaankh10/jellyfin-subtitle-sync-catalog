@@ -8,6 +8,14 @@
     "category": "Subtitles",
     "versions": [
       {
+        "version": "0.4.1.0",
+        "changelog": "Refreshes the plugin artwork with a simpler, high-contrast design for Jellyfin’s plugin cards.",
+        "targetAbi": "12.4.0.0",
+        "sourceUrl": "https://github.com/Hassaankh10/jellyfin-subtitle-sync-catalog/releases/download/v0.4.1/SubtitleSync-0.4.1-Jellyfin-12.4.zip",
+        "checksum": "90556030483a54109daa8ca8cbd7ffbf",
+        "timestamp": "2026-11-28T00:00:00Z"
+      },
+      {
         "version": "0.4.0.0",
         "changelog": "Remembers completed tracks across restarts and leaves already aligned originals without duplicate files. Adds a ±15-minute offset search, per-title re-sync, optional scene-change alignment, and plugin artwork.",
         "targetAbi": "12.4.0.0",
